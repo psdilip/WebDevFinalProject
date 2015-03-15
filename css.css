@@ -82,5 +82,10 @@ font-size: 40;
 table {
     margin-left: 10%;
     margin-right: auto;
+    padding: 75px;
     
+}
+
+.productPics {
+ float: left;
 }
