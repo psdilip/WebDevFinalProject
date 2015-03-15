@@ -8,16 +8,17 @@ header {
     margin-bottom: 0px;
     
 }
-section {
-   
+
+#Left{
+    background-color: aqua;
+    width:200px;
+    height: 60px;
+    text-align: right;
 }
 
-.NavBar {
-     background-color: aqua;
-    font-weight: bold;
-    text-align: center;
-    width: auto;
-  
+#Right{
+    
+    
 }
 
 nav {
@@ -43,7 +44,7 @@ li {
     
 }
 a{
-    color:white;
+    color:black;
     font-family: Arial;
     font-style: bold;
     text-decoration: none;
