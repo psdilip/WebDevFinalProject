@@ -95,7 +95,7 @@ p {
 
 #contactForm {
     margin-left: 500px;
-    margin-top: -100px;
+    margin-top: -20px;
 }
 #ContactTitle {
     font-size: 40px;
@@ -104,8 +104,8 @@ p {
     color: #31C192;
 }
 #rightInfo{
-margin-left: 1200px;
-margin-top: -10px;
+margin-left: 1400px;
+margin-top: -70px;
 margin-right: auto;
 }
 #contactFooter {
@@ -179,4 +179,17 @@ table {
 
 .productPics {
  float: left;
+}
+
+#table1 {
+    background-color: #a04;
+
+}
+#table2 {
+    background-color: #40a;
+
+}
+#table3 {
+    background-color: #4a0;
+
 }
