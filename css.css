@@ -86,12 +86,23 @@ nav {
 }
 
 #contactus {
-    align-content: center;
-    
+    margin-left: 400px;
+    margin-top: 50px;
 }
 
-.contactForm {
-    
+#contactForm {
+    margin-left: 400px;
+    margin-top: 10px;
+}
+#ContactTitle {
+    font-size: 40px;
+}
+#blueTitle {
+    color: #31C192;
+}
+#rightInfo{
+margin-left: 1200px;
+margin-right: auto;
 }
 
     
