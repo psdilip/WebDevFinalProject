@@ -7,31 +7,32 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
-    <script src="script/product.js"></script>
+
 </head>
 
 <body>
-   <header>
-       <section id="Left"><p>Piron</p></section>
-        
+    <header>
+        <section id="Left">
+            <p>Piron</p>
+        </section>
+
         <section id="Right">
             <nav>
-            <a href="Home.html">Home</a>
-            <a href="product.html">Products</a>
-            <a href="contactus.html">Contact Us</a>
-            <a href="aboutus.html">About Us</a>
-        </nav>
-           </section> 
-     
+                <a href="Home.html">Home</a>
+                <a href="product.html">Products</a>
+                <a href="contactus.html">Contact Us</a>
+                <a href="aboutus.html">About Us</a>
+            </nav>
+        </section>
+
     </header>
     <section>
-        <canvas id="productCanvas" width="800" height="1000" style="border: 1px solid #000;">
-            //get rid of the style
-            <article>
+        <article>
+            <section id=table1>
                 <div class="productPics">
                     <img src="image/Sony-Xperia-Z-cell-phone-03.png" />
                 </div>
-                <table>
+                <table id="product1">
                     <tr>
                         <th></th>
                         <th scope="col" colspan="3"></th>
@@ -93,11 +94,12 @@
 
 
                 </table>
-
+            </section>
+            <section id="table2">
                 <div class="productPics">
                     <img src="image/iphone6-plus-box-gold-2014.png" />
                 </div>
-                <table>
+                <table id="product2">
                     <tr>
                         <th></th>
                         <th scope="col" colspan="3"></th>
@@ -157,11 +159,13 @@
                     </tr>
 
                 </table>
+            </section>
+            <section id="table3">
                 <div class="productPics">
                     <img src="image/GS4-Active_001.png" />
                 </div>
 
-                <table>
+                <table id="product3">
                     <tr>
                         <th></th>
                         <th scope="col" colspan="3"></th>
@@ -221,9 +225,10 @@
                     </tr>
 
                 </table>
+            </section>
+        </article>
+        <script src="script/product.js"></script>
 
-            </article>
-        </canvas>
     </section>
 
     <footer>
