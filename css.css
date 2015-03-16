@@ -90,9 +90,10 @@ p {
     font-size: 40px;
 }
 
-#blueTitle {
+.blueTitle {
     color: #31C192;
-    pad
+    padding-top: 5px;
+    
 }
 
 #rightInfo {
@@ -102,11 +103,7 @@ p {
     margin-right: auto;
 }
 
-.contactFooter {
-    margin-left: 0px;
-    margin-bottom: -20px;
-    margin-top: 100px;
-}
+
 
 #name {}
 
@@ -114,8 +111,12 @@ p {
     margin-top: 20px;
 }
 
+
 #Phone {
     margin-top: 20px;
+}
+#Phone2 {
+ margin-top: 20px;   
 }
 
 #Question {
@@ -172,6 +173,19 @@ table {
 #contactPage {
     min-width: inherit;
     min-height: inherit
+}
+#CopyRText
+{
+ 
+    margin-left: 45%;
+    margin-right: auto;
+    
+    position:fixed;
+    bottom: 0px;
+    
+  
+    width: 50%;
+    
 }
 
 #table1 {
