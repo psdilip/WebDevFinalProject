@@ -161,6 +161,13 @@ table {
 .productPics {
     float: left;
 }
+#Employees {
+    width: 30%;
+}
+#contactPage {
+    min-width: inherit;
+    min-height: inherit
+}
 
 #table1 {
     background-color: #a04;
