@@ -5,6 +5,9 @@ $(document).ready(function () {
     $('#table2').width('100px');
     $('#table3').height('100px');
     $('#table3').width('100px');
+    $('#product1').hide();
+    $('#product2').hide();
+    $('#product3').hide();
 
     $('#table1').on("click", function () {
         $('#tabl1').height('500px');
@@ -14,6 +17,8 @@ $(document).ready(function () {
         $('#table3').height('100px');
         $('#table3').width('100px');
         $('#product1').show();
+        $('#product2').hide();
+        $('#product3').hide();
         
     });
     $('#table2').on("click", function () {
@@ -23,8 +28,9 @@ $(document).ready(function () {
         $('#table2').width('1000px');
         $('#table3').height('100px');
         $('#table3').width('100px');
-        $('product1').hide();
-        $('product3').toggle();
+         $('#product1').hide();
+        $('#product2').show();
+        $('#product3').hide();
     });
 
     $('#table3').on("click", function () {
@@ -34,7 +40,8 @@ $(document).ready(function () {
         $('#table2').width('100px');
         $('#table3').height('500px');
         $('#table3').width('1000px');
-        $('product1').toggle();
-        $('product2').toggle();
+         $('#product1').hide();
+        $('#product2').hide();
+        $('#product3').show();
     });
 });

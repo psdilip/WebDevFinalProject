@@ -163,7 +163,7 @@ table {
 }
 
 #table1 {
-    background-color: aqua;
+    background-color: #a04;
 }
 
 #table2 {
@@ -171,17 +171,5 @@ table {
 }
 
 #table3 {
-    background-color: aqua;
-}
-
-#product1 {
-    visibility: hidden;
-}
-
-#product2 {
-    visibility: hidden;
-}
-
-#product3 {
-    visibility: hidden;
+    background-color: #4a0;
 }
