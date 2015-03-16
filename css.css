@@ -107,6 +107,14 @@ p {
 margin-left: 1200px;
 margin-right: auto;
 }
+#contactFooter {
+margin-left: 400px;
+margin-bottom: -20px;
+margin-top: 400px;
+}
+#email {
+    border-bottom-width: thin;
+}
 
     
 

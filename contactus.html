@@ -39,15 +39,25 @@
     <section id="contactForm">
         <h4>Contact Form</h4>
         <form name="this.myform">
-            <input type="text" name="inputbox" value="Name">
-            <input type="text" name="inputbox" value="Email Address">
-            <input type="text" name="inputbox" value="Telephone Number">
-            <input type="text" name="inputbox" value="Qestions/Concerns">
-            <input type="button" name="button" value="Submit" onClick="sendData(this.form)">
+            <section id="name">
+                <input type="text" name="inputbox" value="Name">
+            </section>
+            <section id="email">
+                <input type="text" name="inputbox" value="Email Address">
+            </section>
+            <section id="Phone">
+                <input type="text" name="inputbox" value="Telephone Number">
+            </section>
+            <section id="Question">
+                <input type="text" name="inputbox" value="Qestions/Concerns">
+            </section>
+            <section id="send">
+                <input type="button" name="button" value="Submit" onClick="sendData(this.form)">
+            </section>
         </form>
     </section>
     
-    <footer>
+    <footer id="contactFooter">
         <article>
             <p id="CopyRText">Copyright &copy 2015 by Piron</p>
         </article>
