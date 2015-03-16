@@ -1,6 +1,6 @@
 header {
     padding:10px;
-    width: auto;
+    width: 100%;
     height: 70px;
     margin-right: auto;
     margin-left: -20px;
@@ -34,7 +34,31 @@ p {
 
 #Right{
     display: inline-block;
+    width: 75%;
     
+    
+}
+#slideshow {
+    width: 800px;
+    height: 800px;
+    overflow: hidden;
+    position: relative;
+    padding-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#slideshow > div
+{
+    width: inherit;
+    height: inherit;
+    position: absolute;
+}
+#slideshow > div > img
+{
+   
+    height: inherit;
     
 }
 
@@ -84,7 +108,7 @@ a{
     font-family: Arial;
     font-style: bold;
     text-decoration: none;
-    padding: 50px;
+    padding-left: 5%;
    vertical-align: -15px;
     
 }
