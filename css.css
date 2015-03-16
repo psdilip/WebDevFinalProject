@@ -74,15 +74,15 @@ p {
 }
 
 #contactus {
-   margin-left: 25%;
+   margin-left: 15%;
     margin-top: 50px;
     display: inline-block;
     width: 50%;
 }
 
 #contactForm {
-    margin-left: 25%;
-    margin-top: -20px;
+    margin-left: 15%;
+    margin-top: 10px;
     display: inline-block;
 }
 
@@ -99,7 +99,8 @@ p {
 #rightInfo {
     
    display: inline-block;
-   padding-top: 20px;
+   padding-top: 50px;
+    padding-left: 200px;
     margin-right: auto;
 }
 
@@ -185,6 +186,17 @@ table {
     
   
     width: 50%;
+    
+}
+.MoveDown {
+    
+ margin-top: 30px;   
+background-color: #A498DE;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 100%;
+    padding-bottom: 300px;
     
 }
 
