@@ -5,7 +5,7 @@ header {
     margin-right: auto;
     margin-left: -20px;
     margin-top: -40px;   
-    margin-bottom: 0px;
+ 
     
 }
 p {
@@ -24,26 +24,31 @@ p {
 }
 #Left p {
     
-        display: inline;
+    display: inline;
     font-size: 30px;
     font-style: solid;
-    vertical-align: -15px;;
+    vertical-align: -15px;
     padding-right: 20px;
        
 }
 
 #Right{
     display: inline-block;
-    width: 75%;
+    width: 71%;
+     vertical-align: -15px;
+    
+    
+    
+    
     
     
 }
 #slideshow {
-    width: 800px;
-    height: 800px;
+    width: 1200px;
+    height: 1200px;
     overflow: hidden;
     position: relative;
-    padding-top: 200px;
+    padding-top: 100px;
     margin-left: auto;
     margin-right: auto;
     
@@ -58,13 +63,11 @@ p {
 #slideshow > div > img
 {
    
-    height: inherit;
+    width: inherit;
     
 }
 
-nav {
-    text-align: center;   
-}
+
 
 
 .profilepic {
@@ -119,8 +122,8 @@ a{
     font-family: Arial;
     font-style: bold;
     text-decoration: none;
-    padding-left: 5%;
-   vertical-align: -15px;
+    padding-left: 10%;
+   
     
 }
 
