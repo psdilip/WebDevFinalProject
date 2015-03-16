@@ -1,3 +1,7 @@
 $(document).ready(function () {    
-    $('#Employees').accordion();
+    $('#Employees').accordion({
+        heightStyle: "content",
+        active: false,
+        collapsible: true,
+    });
 });
