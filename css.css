@@ -74,13 +74,16 @@ p {
 }
 
 #contactus {
-    margin-left: 400px;
+   margin-left: 25%;
     margin-top: 50px;
+    display: inline-block;
+    width: 50%;
 }
 
 #contactForm {
-    margin-left: 500px;
+    margin-left: 25%;
     margin-top: -20px;
+    display: inline-block;
 }
 
 #ContactTitle {
@@ -89,11 +92,13 @@ p {
 
 #blueTitle {
     color: #31C192;
+    pad
 }
 
 #rightInfo {
-    margin-left: 1400px;
-    margin-top: -70px;
+    
+   display: inline-block;
+   padding-top: 20px;
     margin-right: auto;
 }
 
