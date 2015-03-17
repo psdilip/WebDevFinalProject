@@ -298,7 +298,8 @@ background-color: #CDD6D3;
 }
 
 #table1 {
-    background-color: #a04;
+    background-color: #A2F1FF;
+    color: black;
     margin-left: auto;
     margin-right: auto;
     height: 500px;
@@ -307,7 +308,8 @@ background-color: #CDD6D3;
 }
 
 #table2 {
-    background-color: aqua;
+    background-color: #A2F1FF;
+    color: black;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -317,7 +319,8 @@ background-color: #CDD6D3;
 }
 
 #table3 {
-    background-color: #4a0;
+    background-color: #A2F1FF;
+    color: black;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
