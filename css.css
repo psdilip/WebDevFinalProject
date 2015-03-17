@@ -236,6 +236,8 @@ background-color: #CDD6D3;
     background-color: #a04;
     margin-left: auto;
     margin-right: auto;
+    height: 500px;
+    width: 500px;
 }
 
 #table2 {
@@ -243,6 +245,8 @@ background-color: #CDD6D3;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
+     height: 500px;
+    width: 500px;
 }
 
 #table3 {
@@ -250,4 +254,6 @@ background-color: #CDD6D3;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
+     height: 500px;
+    width: 500px;
 }
