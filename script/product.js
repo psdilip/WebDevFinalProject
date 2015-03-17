@@ -1,10 +1,10 @@
 $(document).ready(function () {
-    $('#tabl1').height('100px');
-    $('#table1').width('100px');
-    $('#table2').height('100px');
-    $('#table2').width('100px');
-    $('#table3').height('100px');
-    $('#table3').width('100px');
+//    $('#tabl1').height('100px');
+//    $('#table1').width('100px');
+//    $('#table2').height('100px');
+//    $('#table2').width('100px');
+//    $('#table3').height('100px');
+//    $('#table3').width('100px');
     $('#product1').hide();
     $('#product2').hide();
     $('#product3').hide();
