@@ -41,7 +41,7 @@ p {
     height: 1400px;
     overflow: hidden;
     position: relative;
-    padding-top: 100px;
+    padding-top: 0px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -324,4 +324,8 @@ background-color: #CDD6D3;
      height: 500px;
     width: 1000px;
      position: relative;
+}
+#canvas {
+    margin-left: 1500px;
+    margin-top: -60px;
 }
