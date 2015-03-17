@@ -22,12 +22,12 @@ $(document).ready(function () {
         
     });
     $('#table2').on("click", function () {
-        $('#tabl1').height('100px');
-        $('#table1').width('100px');
-        $('#table2').height('500px');
-        $('#table2').width('1000px');
-        $('#table3').height('100px');
-        $('#table3').width('100px');
+     $('#tabl1').height('100px');
+     $('#table1').width('100px');
+      $('#table2').height('500px');
+      $('#table2').width('1000px');
+      $('#table3').height('100px');
+       $('#table3').width('100px');
          $('#product1').hide();
         $('#product2').show();
         $('#product3').hide();
@@ -44,4 +44,6 @@ $(document).ready(function () {
         $('#product2').hide();
         $('#product3').show();
     });
+    
+    
 });
