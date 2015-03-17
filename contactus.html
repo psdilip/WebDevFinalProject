@@ -1,74 +1,81 @@
 <!DOCtype html>
 <html>
-    
+
 <head>
     <title>Contact Us</title>
     <link href="css.css" type="text/css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+    <script src="script/aboutus.js"></script>
 </head>
 
 <body>
-  
+
     <header>
-       <section id="Left"><p>Piron</p></section>
-        
+        <section id="Left">
+            <p>Piron</p>
+        </section>
+
         <section id="Right">
             <nav>
-            <a href="Home.html">Home</a>
-            <a href="product.html">Products</a>
-            <a href="contactus.html">Contact Us</a>
-            <a href="aboutus.html">About Us</a>
-        </nav>
-           </section> 
-     
+                <a href="Home.html">Home</a>
+                <a href="product.html">Products</a>
+                <a href="contactus.html">Contact Us</a>
+                <a href="aboutus.html">About Us</a>
+            </nav>
+        </section>
+
     </header>
-      <div class = "MoveDown">
-    <section id="contactus"> 
+    <div class="MoveDown">
+        <section id="contactus">
             <article>
                 <h1 id="ContactTitle"> Contact Us </h1>
                 <span>If you have any questions or concerns about our proudcts, please let us know by using the contact form below!</span>
                 <p>We are open Monday-Friday from 8:00 a.m. - 7 p.m. Eastern Standard time.</p>
-                 </article>
-     </section>
-           
-          
-            <article id="rightInfo">
-                <p id = "Phone2" class="blueTitle">Phone #'s</p>
-                <p>1-(800) 373-4200 </p>
-                <p2> ----------------------------</p2>
-                 <p class="blueTitle">Email</p>
-                <p>info.support@Piron.com</p>
             </article>
-   
-    
-    
-    <section id="contactForm">
-        <div >
-        <h3>Contact Form</h3>
-        <form name="this.myform">
-            <section id="name">
-                <input type="text" name="inputbox" value="Name">
-            </section>
-            <section id="email">
-                <input type="text" name="inputbox" value="Email Address">
-            </section>
-            <section id="Phone">
-                <input type="text" name="inputbox" value="Telephone Number">
-            </section>
-            <section id="Question">
-                <input type="text" name="inputbox" value="Qestions/Concerns">
-            </section>
-            <section id="send">
-                <input type="button" name="button" value="Submit" onClick="sendData(this.form)">
-            </section>
-        </form>
-            </div>
-    </section>
-    
-    <footer class="contactFooter">
-        <article>
-            <p id="CopyRText">Copyright &copy 2015 by Piron</p>
+        </section>
+
+
+        <article id="rightInfo">
+            <p id="Phone2" class="blueTitle">Phone #'s</p>
+            <p>1-(800) 373-4200 </p>
+            <p2> ----------------------------</p2>
+            <p class="blueTitle">Email</p>
+            <p>info.support@Piron.com</p>
         </article>
-    </footer>
-        </div>
+
+
+
+        <section id="contactForm">
+            <div>
+                <h3>Contact Form</h3>
+                <form name="this.myform">
+                    <section id="name">
+                        <input type="text" name="inputbox" value="Name">
+                    </section>
+                    <section id="email">
+                        <input type="text" name="inputbox" value="Email Address">
+                    </section>
+                    <section id="Phone">
+                        <input type="text" name="inputbox" value="Telephone Number">
+                    </section>
+                    <section id="Question">
+                        <input type="text" name="inputbox" value="Qestions/Concerns">
+                    </section>
+                    <section id="send">
+                        <input type="button" name="button" value="Submit">
+                    </section>
+                </form>
+            </div>
+        </section>
+
+        <footer class="contactFooter">
+            <article>
+                <p id="CopyRText">Copyright &copy 2015 by Piron</p>
+            </article>
+        </footer>
+    </div>
 </body>
-    </html>
+
+</html>
