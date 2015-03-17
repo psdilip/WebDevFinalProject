@@ -1,5 +1,6 @@
 $(document).ready(function () {
     $('#send').on("click", function () {
-        $('#Question').val('');
+        //$('#Question').text("");
+        alert("Your Form has been submited");
     });
 });
