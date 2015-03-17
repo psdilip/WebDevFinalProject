@@ -32,7 +32,7 @@ $(document).ready(function () {
         $('#product2').show();
         $('#product3').hide();
     });
-
+    
     $('#table3').on("click", function () {
         $('#tabl1').height('100px');
         $('#table1').width('100px');
