@@ -197,8 +197,8 @@ table {
     
 }
 #aboutUsPage {
-    width: 1000px;
-    height: 1000px;
+    width: 80%;
+    height: 100%;
      margin-left: auto;
     margin-right: auto;
     background-color: #CDD6D3;
@@ -222,7 +222,7 @@ table {
 .MoveDown {
     
  margin-top: 30px;   
-background-color: #A498DE;
+background-color: #CDD6D3;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
